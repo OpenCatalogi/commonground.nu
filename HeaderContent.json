@@ -1,0 +1,143 @@
+[
+  {
+    "label": "Home",
+    "type": "internal",
+    "current": {
+      "pathname": "/"
+    },
+    "handleClick": {
+      "link": "/"
+    }
+ },
+ {
+    "label": "Categories",
+    "type": "internal",
+    "current": {
+      "pathname": "/categories"
+    },
+    "handleClick": {
+      "link": "/categories"
+    }
+  },
+ {
+    "label": "Applications",
+    "type": "internal",
+    "current": {
+      "pathname": "/applications"
+    },
+    "handleClick": {
+      "link": "/applications"
+    }
+  },
+  {
+    "label": "Components",
+    "current": {
+      "pathname": "/components"
+    },
+    "subItems": [
+   {
+        "label": "All components",
+        "type": "internal",
+        "current": {
+          "pathname": "/components"
+        },
+        "handleClick": {
+          "link": "/components"
+        }
+      },
+     {
+        "label": "Processes",
+        "type": "internal",
+        "current": {
+          "pathname": "/components",
+          "filterCondition": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "process"
+          }
+        },
+        "handleClick": {
+          "link": "/components",
+          "type": "internal",
+          "setFilter": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "process"
+          }
+        }
+      },
+     {
+        "label": "Data models",
+        "type": "internal",
+        "current": {
+          "pathname": "/components",
+          "filterCondition": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "data"
+          }
+        },
+        "handleClick": {
+          "link": "/components",
+          "setFilter": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "data"
+          }
+        }
+      },
+      {
+        "label": "API's",
+        "type": "internal",
+        "current": {
+          "pathname": "/components",
+          "filterCondition": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "service"
+          }
+        },
+        "handleClick": {
+          "link": "/components",
+          "setFilter": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "service"
+          }
+        }
+      }
+    ]
+  },
+ {
+    "label": "Organizations",
+    "type": "internal",
+    "current": {
+      "pathname": "/organizations"
+    },
+    "handleClick": {
+      "link": "/organizations"
+    }
+  },
+   {
+    "label": "Initiatives",
+    "type": "internal",
+    "current": {
+      "pathname": "/components",
+      "filterCondition": {
+        "filterKey": "developmentStatus",
+        "value": "concept"
+      }
+    },
+    "handleClick": {
+      "link": "/components",
+      "setFilter": {
+        "filterKey": "developmentStatus",
+        "value": "concept"
+      }
+    }
+  },
+  {
+    "label": "Documentatie",
+    "type": "external",
+    "current": {
+      "pathname": "/documentation"
+    },
+    "handleClick": {
+          "link": "https://documentatie.opencatalogi.nl/"
+    }
+  }
+]

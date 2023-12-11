@@ -1,0 +1,34 @@
+name: My Open Catalogi Workflow
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:              
+      - name: Create or Update publiccode.yaml
+        uses: OpenCatalogi/publiccode-action@1.0.1
+        with:
+          opencatalogi: true
+      - name: Create an Open Catalogi page
+        uses: OpenCatalogi/opencatalogi-action@1.1.4
+        with:
+          github_repository_name_as_prefix: false
+          nl_design_theme_classname: 'commonground-theme'
+          pull_from_branche: 'development'
+          start_page: 'false'
+          footer_content: 'https://raw.githubusercontent.com/OpenCatalogi/opencatalogi.nl/main/FooterContent.json'
+          navbar_content: 'https://raw.githubusercontent.com/OpenCatalogi/opencatalogi.nl/main/HeaderContent.json'
+          favicon_logo: 'https://dev.opencatalogi.nl/static/logo_OpenCatalogi-8b1b0a001c3f37dae4d3f69b5964ec72.png'
+          navbar_logo: 'https://dev.opencatalogi.nl/static/logo_OpenCatalogi-8b1b0a001c3f37dae4d3f69b5964ec72.png'
+          footer_logo: 'https://dev.opencatalogi.nl/static/logo_OpenCatalogi-8b1b0a001c3f37dae4d3f69b5964ec72.png'
+          jumbotron_title: "OpenCatalogi"
+          jumbotron_description: "Eén centrale plek voor hergebruik van informatietechnologie binnen de overheid"
+          jumbotron_searchform: "true"

@@ -30,4 +30,4 @@ jobs:
           jumbotron_title: "Commonground Portfolio"
           jumbotron_description: "Alle commonground portfolio items die zijn gepubliceerd op Open Catalogi"
           jumbotron_searchform: "true"
-          github_organization_url: ""
+          github_organization_url: "false"

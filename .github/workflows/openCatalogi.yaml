@@ -27,8 +27,6 @@ jobs:
           footer_content: 'https://raw.githubusercontent.com/OpenCatalogi/commonground.nu/main/FooterContent.json'
           navbar_content: 'https://raw.githubusercontent.com/OpenCatalogi/commonground.nu/main/HeaderContent.json'
           favicon_logo: 'https://dev.opencatalogi.nl/static/logo_OpenCatalogi-8b1b0a001c3f37dae4d3f69b5964ec72.png'
-          navbar_logo: 'https://dev.opencatalogi.nl/static/logo_OpenCatalogi-8b1b0a001c3f37dae4d3f69b5964ec72.png'
-          footer_logo: 'https://dev.opencatalogi.nl/static/logo_OpenCatalogi-8b1b0a001c3f37dae4d3f69b5964ec72.png'
           jumbotron_title: "Commonground Portfolio"
           jumbotron_description: "Alle commonground portfolio items die zijn gepubliceerd op Open Catalogi"
           jumbotron_searchform: "true"

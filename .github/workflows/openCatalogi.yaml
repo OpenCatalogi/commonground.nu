@@ -18,7 +18,7 @@ jobs:
         with:
           opencatalogi: true
       - name: Create an Open Catalogi page
-        uses: OpenCatalogi/opencatalogi-action@1.1.9
+        uses: OpenCatalogi/opencatalogi-action@latest
         with:
           github_repository_name_as_prefix: false
           nl_design_theme_classname: 'commonground-theme'
@@ -33,3 +33,4 @@ jobs:
           jumbotron_searchform: "true"
           github_organization_url: "false"
           filter_rating: "Commonground"
+          filter_rating_default: "1"

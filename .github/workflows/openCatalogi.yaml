@@ -34,3 +34,4 @@ jobs:
           github_organization_url: "false"
           filter_rating: "Commonground"
           filter_rating_default: "1"
+          commonground_charts: "true

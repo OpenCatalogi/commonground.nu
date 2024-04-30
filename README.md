@@ -37,3 +37,4 @@ Voor meer details over OpenCatalogi en hoe u gebruik kunt maken van de aangebode
 ---
 
 Wij nodigen u uit om deel te nemen aan deze innovatieve beweging en bij te dragen aan een transparantere, efficiëntere en toekomstbestendige overheid. Voor vragen of suggesties, neem gerust contact op via de vermelde contactgegevens op onze website. Samen bouwen we aan een betere digitale toekomst voor iedereen.
+

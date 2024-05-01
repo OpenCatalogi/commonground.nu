@@ -16,7 +16,7 @@
     },
     "subItems": [
    {
-        "label": "All components",
+        "label": "Alle componenten",
         "type": "internal",
         "current": {
           "pathname": "/components"
@@ -26,7 +26,26 @@
         }
       },
      {
-        "label": "Processes",
+        "label": "Interactie",
+        "type": "internal",
+        "current": {
+          "pathname": "/components",
+          "filterCondition": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "interface"
+          }
+        },
+        "handleClick": {
+          "link": "/components",
+          "type": "internal",
+          "setFilter": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "interface"
+          }
+        }
+      },
+     {
+        "label": "Procesinrichting",
         "type": "internal",
         "current": {
           "pathname": "/components",
@@ -44,8 +63,44 @@
           }
         }
       },
+      {
+        "label": "Verbinding",
+        "type": "internal",
+        "current": {
+          "pathname": "/components",
+          "filterCondition": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "integration"
+          }
+        },
+        "handleClick": {
+          "link": "/components",
+          "setFilter": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "integration"
+          }
+        }
+      },
+      {
+        "label": "Services",
+        "type": "internal",
+        "current": {
+          "pathname": "/components",
+          "filterCondition": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "service"
+          }
+        },
+        "handleClick": {
+          "link": "/components",
+          "setFilter": {
+            "filterKey": "embedded.nl.embedded.commonground.layerType",
+            "value": "service"
+          }
+        }
+      },
      {
-        "label": "Data models",
+        "label": "Gegevensbronnens",
         "type": "internal",
         "current": {
           "pathname": "/components",
@@ -62,24 +117,6 @@
           }
         }
       },
-      {
-        "label": "API's",
-        "type": "internal",
-        "current": {
-          "pathname": "/components",
-          "filterCondition": {
-            "filterKey": "embedded.nl.embedded.commonground.layerType",
-            "value": "service"
-          }
-        },
-        "handleClick": {
-          "link": "/components",
-          "setFilter": {
-            "filterKey": "embedded.nl.embedded.commonground.layerType",
-            "value": "service"
-          }
-        }
-      }
     ]
   },
  {

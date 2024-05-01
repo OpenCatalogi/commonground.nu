@@ -9,26 +9,6 @@
       "link": "/"
     }
  },
- {
-    "label": "Categories",
-    "type": "internal",
-    "current": {
-      "pathname": "/categories"
-    },
-    "handleClick": {
-      "link": "/categories"
-    }
-  },
- {
-    "label": "Applications",
-    "type": "internal",
-    "current": {
-      "pathname": "/applications"
-    },
-    "handleClick": {
-      "link": "/applications"
-    }
-  },
   {
     "label": "Components",
     "current": {
@@ -103,7 +83,7 @@
     ]
   },
  {
-    "label": "Organizations",
+    "label": "Organisaties",
     "type": "internal",
     "current": {
       "pathname": "/organizations"
@@ -113,7 +93,7 @@
     }
   },
    {
-    "label": "Initiatives",
+    "label": "Initiatieven",
     "type": "internal",
     "current": {
       "pathname": "/components",
@@ -131,13 +111,23 @@
     }
   },
   {
-    "label": "Documentatie",
+    "label": "Portfolio",
     "type": "external",
     "current": {
       "pathname": "/documentation"
     },
     "handleClick": {
-          "link": "https://documentatie.opencatalogi.nl/"
+          "link": "https://app.powerbi.com/view?r=eyJrIjoiMjQzM2VkNGMtMWI3Mi00YWU4LTliMWUtNGY2ZWYwNDcxOWIyIiwidCI6IjZlZjAyOWFiLTNmZDctNGQ5OC05YjBlLWQxZjVmZWRlYTZkMSIsImMiOjh9&pageName=ReportSection1a0914d10779c7a68540"
+    }
+  },
+  {
+    "label": "Over Common Ground",
+    "type": "external",
+    "current": {
+      "pathname": "/documentation"
+    },
+    "handleClick": {
+          "link": "https://commonground.nl/"
     }
   }
 ]

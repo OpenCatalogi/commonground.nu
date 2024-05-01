@@ -123,7 +123,7 @@
     "label": "Initiatieven",
     "type": "internal",
     "current": {
-      "pathname": "/components",
+      "pathname": "/initiatieven",
       "filterCondition": {
         "filterKey": "developmentStatus",
         "value": "concept"

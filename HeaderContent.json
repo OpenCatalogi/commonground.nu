@@ -119,16 +119,6 @@
       }
     ]
   },
- {
-    "label": "Organisaties",
-    "type": "internal",
-    "current": {
-      "pathname": "/organizations"
-    },
-    "handleClick": {
-      "link": "/organizations"
-    }
-  },
    {
     "label": "Initiatieven",
     "type": "internal",
